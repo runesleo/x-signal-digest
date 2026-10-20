@@ -1,6 +1,6 @@
 # Signal Digest Loop
 
-简体中文 · [English](README.md)
+简体中文 · [English](README.md) · [产品页](https://leolabs.me/tools/x-signal-digest/)
 
 > 用 AI 安装：把这句话发给你的 AI —— *按照 https://github.com/runesleo/x-signal-digest/blob/main/install.md 的官方说明，在这台电脑上安装 Signal Digest Loop。*
 

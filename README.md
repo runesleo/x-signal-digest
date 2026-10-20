@@ -1,6 +1,6 @@
 # Signal Digest Loop
 
-[简体中文](README.zh.md) · English
+[简体中文](README.zh.md) · English · [Product page](https://leolabs.me/tools/x-signal-digest/en/)
 
 > Install with your AI agent: *Set up Signal Digest Loop on this computer by following the official instructions at https://github.com/runesleo/x-signal-digest/blob/main/install.md.*
 
