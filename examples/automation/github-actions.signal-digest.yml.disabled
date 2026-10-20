@@ -1,0 +1,23 @@
+# DISABLED TEMPLATE: this file is intentionally outside .github/workflows and
+# has a .disabled suffix. Moving it there is an explicit operator action.
+name: Signal Digest Loop example
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "20 9 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install .
+      - run: signal-digest cycle --config examples/config.toml --allow-command-analyzer --apply

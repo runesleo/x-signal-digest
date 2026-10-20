@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- DISABLED TEMPLATE: replace every INVALID placeholder before validation. -->
+  <key>Label</key>
+  <string>INVALID.replace-me.signal-digest</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/INVALID/absolute/path/to/venv/bin/signal-digest</string>
+    <string>cycle</string>
+    <string>--config</string>
+    <string>/INVALID/absolute/path/to/config.toml</string>
+    <string>--allow-command-analyzer</string>
+    <string>--apply</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>20</integer>
+  </dict>
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

@@ -1,0 +1,4 @@
+# DISABLED EXAMPLE — do not install without replacing and reviewing every path.
+# Run at 09:20 local scheduler time. Uncommenting this file does nothing; an
+# operator would still have to add a reviewed line to a private crontab.
+# 20 9 * * * /absolute/path/to/venv/bin/signal-digest cycle --config /absolute/path/to/config.toml --allow-command-analyzer --apply

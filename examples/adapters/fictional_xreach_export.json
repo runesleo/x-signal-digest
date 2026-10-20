@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "1000000000000000001",
+      "text": "Fictional lab ships a reversible cache migration checklist\nDetails in the thread.",
+      "createdAt": "Mon Oct 19 08:00:00 +0000 2026",
+      "user": {"screenName": "example_lab"},
+      "likeCount": 12, "retweetCount": 3, "replyCount": 2, "quoteCount": 1, "bookmarkCount": 4,
+      "isRetweet": false
+    },
+    {
+      "id": "1000000000000000002",
+      "text": "RT a made-up announcement",
+      "createdAt": "2026-10-19T09:00:00Z",
+      "user": {"screenName": "example_echo"},
+      "likeCount": 0,
+      "isRetweet": true
+    }
+  ],
+  "cursor": null,
+  "hasMore": false
+}

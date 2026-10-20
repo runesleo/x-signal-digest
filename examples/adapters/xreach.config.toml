@@ -1,0 +1,17 @@
+# Example source block for a JSONL file produced by xreach_to_jsonl.py.
+# Copy it into your own config.toml; paths are relative to that config file.
+
+[[sources]]
+name = "x-home"
+type = "jsonl"
+path = "signals.jsonl"
+weight = 1.0
+freshness_hours = 24
+enabled = true
+
+[sources.fields]
+title = "title"
+url = "url"
+text = "text"
+published_at = "published_at"
+engagement = "engagement"

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Fictional cache policy changes next week",
+      "url": "https://example.invalid/notes/cache-change",
+      "summary": "A made-up service announces a configuration migration and a reversible readiness check.",
+      "engagement": 28
+    },
+    {
+      "title": "Imaginary research team publishes a cache visualization method",
+      "url": "https://example.invalid/research/palette",
+      "summary": "A synthetic research item worth retaining for a later investigation, without a formal action.",
+      "engagement": 9
+    },
+    {
+      "title": "Example community shares a lightweight learning checklist",
+      "url": "https://example.invalid/community/hello",
+      "summary": "A fictional learning item worth knowing, with insufficient evidence for a formal decision.",
+      "engagement": 3
+    }
+  ]
+}

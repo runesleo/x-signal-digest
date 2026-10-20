@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Example and local runtime state. Receipts may contain source excerpts.
+.signal-digest/
+examples/.state/
+
+# Local configuration may contain private paths or command arguments.
+config.local.toml
+*.local.toml
+
+# Secrets and sessions
+.env
+.env.*
+*.session

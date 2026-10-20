@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Signal Digest"
+  short_description: "Digest a logged-in X feed into useful signals"
+  default_prompt: "Use $x-signal-digest to check my X setup and run a read-only signal-digestion cycle."
