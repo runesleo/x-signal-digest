@@ -31,6 +31,13 @@ surface a few items worth knowing, and allow only evidence-backed results to
 change durable state. See the redacted
 [`80 → 23 → 12 → 3 → 1` case study](docs/anonymous-x-case-study.md).
 
+## Install as a plugin
+
+- **Claude Code** (2.1.275 or later): `/plugin install x-signal-digest --marketplace runesleo/x-reader`
+- **Codex**: `codex plugin marketplace add runesleo/x-reader`, then `codex plugin add x-signal-digest@runesleo`
+
+The `runesleo` marketplace also lists Leo's other tools; see [runesleo/x-reader](https://github.com/runesleo/x-reader).
+
 ## Why 0 or 1?
 
 Most monitoring systems optimize for collecting more. Signal Digest Loop
