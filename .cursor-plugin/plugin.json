@@ -1,0 +1,20 @@
+{
+  "name": "x-signal-digest",
+  "version": "0.1.0",
+  "description": "Stop scrolling X: turn a feed into up to three things worth knowing and at most one accountable decision, with receipts.",
+  "author": {
+    "name": "Leo",
+    "url": "https://github.com/runesleo"
+  },
+  "homepage": "https://github.com/runesleo/x-signal-digest",
+  "repository": "https://github.com/runesleo/x-signal-digest",
+  "license": "MIT",
+  "keywords": [
+    "x",
+    "twitter",
+    "digest",
+    "signals"
+  ],
+  "displayName": "x-signal-digest",
+  "skills": "./skills/"
+}

@@ -18,6 +18,13 @@ Signal Digest Loop 是一个**本地优先、模型中立、可审计**的信息
 
 它不是又一份读完就消失的 AI 日报。它允许这一轮没有任何内容值得进入系统，也要求每一次正式晋升都留下可核验的回执。
 
+## 作为插件安装
+
+- **Claude Code**（2.1.275 及以上）：`/plugin install x-signal-digest --marketplace runesleo/x-reader`
+- **Codex**：先 `codex plugin marketplace add runesleo/x-reader`，再 `codex plugin add x-signal-digest@runesleo`
+
+`runesleo` 插件市场里还有 Leo 的其他工具，见 [runesleo/x-reader](https://github.com/runesleo/x-reader)。
+
 ## 一次真实但匿名的运行
 
 ```text
