@@ -2,6 +2,13 @@
 
 简体中文 · [English](README.md) · [产品页](https://leolabs.me/tools/x-signal-digest/)
 
+## 一键使用（Grok Bot 模板）
+
+在 Grok 里添加模板，用你自己的账号读你自己的时间线。公开链接：TODO（发布后把这里换成模板地址）。
+
+- 中文：[templates/grok-bot/template.zh-CN.md](templates/grok-bot/template.zh-CN.md)
+- English：[templates/grok-bot/template.en.md](templates/grok-bot/template.en.md)
+
 > 用 AI 安装：把这句话发给你的 AI —— *按照 https://github.com/runesleo/x-signal-digest/blob/main/install.md 的官方说明，在这台电脑上安装 Signal Digest Loop。*
 
 > **再也不用主动刷 X。**
