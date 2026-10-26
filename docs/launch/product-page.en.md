@@ -1,4 +1,4 @@
-> Draft, not published. Public template URL: TODO. Delete this line before pasting it onto the site.
+> Draft, not published. Public template URL: https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ. Delete this line before pasting it onto the site.
 
 # X Signal Digest
 
@@ -18,7 +18,7 @@ You open X, scroll for twenty minutes, and close it without being able to name w
 
 ## Install
 
-1. Open the template page and click Add to Grok Bot. The public URL stays TODO until publish.
+1. Open the template page and click Add to Grok Bot. Public URL: https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ
 2. Answer two questions: which 1–3 topics matter, and what to skip.
 3. The first digest arrives then. After that it runs once a day at the clock time you left in place.
 4. To move the clock time, tell it the new time. The cadence stays once a day.

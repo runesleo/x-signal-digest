@@ -1,6 +1,6 @@
 # Grok Bot 模板
 
-公开模板链接：TODO（在 Grok 里发布之后，把 README 和产品页草稿里的 TODO 换成模板地址）。
+公开模板链接：https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ
 
 这一夹是给人添加进自己的 Grok Bot 的文本，不是安装脚本。发布、改定时、发帖都不在本仓库里做。
 

@@ -1,6 +1,6 @@
 # X Signal Digest (English template)
 
-Public URL: TODO
+Public URL: https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ
 
 ## Name
 
@@ -74,7 +74,7 @@ cron: 0 8 * * *
 
 ## First-run guide
 
-1. Open the template page and click Add to Grok Bot. The public URL is TODO until it is published.
+1. Open the template page and click Add to Grok Bot. Public URL: https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ
 2. Answer the two questions: 1–3 topics, and what to skip. Tie the answer to your own timeline, for example "posts from people I follow about shipping products and tools; skip price moves."
 3. The first digest arrives right after that answer. Check that each item has the original post link and a concrete reason.
 4. Leave the schedule at once a day. To move it to the evening, say the new clock time, for example "change it to 21:00."

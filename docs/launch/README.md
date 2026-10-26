@@ -9,4 +9,4 @@
 | [x-post.zh-CN.md](x-post.zh-CN.md) | 中文发布帖 |
 | [x-post.en.md](x-post.en.md) | English launch post |
 
-模板正文在 [templates/grok-bot/](../../templates/grok-bot/)。公开模板链接目前是 TODO，发布后再替换。帖子草稿不写价格。
+模板正文在 [templates/grok-bot/](../../templates/grok-bot/)。公开模板链接：https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ。帖子草稿不写价格。

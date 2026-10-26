@@ -4,7 +4,7 @@
 
 ## 一键使用（Grok Bot 模板）
 
-在 Grok 里添加模板，用你自己的账号读你自己的时间线。公开链接：TODO（发布后把这里换成模板地址）。
+在 Grok 里添加模板，用你自己的账号读你自己的时间线。公开链接：https://x.ai/bot/E9ikkXHzJw9V0C34tXLVQ
 
 - 中文：[templates/grok-bot/template.zh-CN.md](templates/grok-bot/template.zh-CN.md)
 - English：[templates/grok-bot/template.en.md](templates/grok-bot/template.en.md)
