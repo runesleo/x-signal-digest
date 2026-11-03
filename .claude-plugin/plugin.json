@@ -9,6 +9,7 @@
   "homepage": "https://github.com/runesleo/x-signal-digest",
   "repository": "https://github.com/runesleo/x-signal-digest",
   "license": "MIT",
+  "privacyPolicyUrl": "https://github.com/runesleo/x-signal-digest#data-and-network-access",
   "keywords": [
     "x",
     "twitter",
