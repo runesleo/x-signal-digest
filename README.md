@@ -331,6 +331,25 @@ Run `signal-digest <command> --help` for the installed version's exact options.
 - A reference LLM analyzer that works with any OpenAI-compatible or Anthropic endpoint.
 - Weekly feedback summary: which sources actually produced promoted items.
 
+## Data and network access
+
+The Signal Digest Loop kernel, the `x-signal-digest` Skill, and its preflight and demo scripts run on your machine and make no network calls. There is no telemetry, and nothing is sent to the author.
+
+Data leaves your machine only through tools you choose and run:
+
+| What | Where it goes |
+|---|---|
+| Installing the plugin | Your agent client downloads this repository from GitHub at a pinned commit |
+| Installing the CLI ([install.md](install.md)) | `git clone` from GitHub; `pip install -e` may fetch the `setuptools` build backend from PyPI. There are no runtime dependencies |
+| Your X feed | Read by the collector you pick (for example `xreach`) through your own logged-in browser session. No collector is bundled; the kernel only reads the local file the collector writes |
+| Shortlisted candidates | Sent on stdin to the analyzer command you configure, and only when you pass `--allow-command-analyzer`. If that analyzer calls a model API, the text goes wherever your analyzer sends it. The analyzer process gets only `PATH` from your environment |
+| Deep-dive on a worth-knowing item | Your agent opens the original post and its first-party links with its own web tools |
+| Grok Bot template (optional) | If you add the template in Grok, Grok reads your timeline with your account. That is separate from the CLI and the plugin, which never call it |
+
+The kernel and Skill never read passwords, cookies, tokens, API keys, browser databases, or keychains. The preflight only checks your Python version, whether the kernel is installed, and whether the collector command exists on `PATH`.
+
+Stored only on your machine: the config written by `signal-digest init` (default `signal-digest.toml`), and everything under `state_dir` (default `.signal-digest/` next to the config): `state.json`, review packets in `packets/`, and commit and feedback receipts in `receipts/`. `digest --output` writes the digest to the file you name. The demo runs in a temporary directory that is deleted afterwards.
+
 ## About the author
 
 *[@runes_leo](https://x.com/runes_leo) (Leo) — AI × Crypto independent builder. Trading on [Polymarket](https://polymarket.com/?via=runes-leo&r=runesleo&utm_source=github&utm_content=x-signal-digest), building data and content pipelines with Claude Code and Codex.*

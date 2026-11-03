@@ -363,6 +363,25 @@ signal-digest feedback  预览或应用有边界、可逆的来源权重调整
 - 一个参考版 LLM analyzer，兼容 OpenAI 格式或 Anthropic 接口。
 - 每周反馈汇总：哪些来源真正产出了被采纳的内容。
 
+## 数据与网络访问
+
+Signal Digest Loop 内核、`x-signal-digest` Skill，以及它的预检和演示脚本都在你自己的电脑上运行，不发任何网络请求。没有遥测，也不会把任何东西发给作者。
+
+数据只会经由你自己选、自己运行的工具离开本机：
+
+| 内容 | 发往哪里 |
+|---|---|
+| 安装插件 | 你的 agent 客户端从 GitHub 下载本仓库的固定 commit |
+| 安装 CLI（[install.md](install.md)） | 从 GitHub `git clone`；`pip install -e` 可能从 PyPI 下载 `setuptools` 构建后端。运行时没有任何依赖 |
+| 你的 X 时间线 | 由你选的采集器（比如 `xreach`）用你自己已登录的浏览器会话读取。本仓库不带采集器，内核只读采集器写到本地的文件 |
+| 进入候选的条目 | 通过 stdin 交给你配置的 analyzer 命令，而且只有显式传 `--allow-command-analyzer` 才会运行。如果 analyzer 调用了模型 API，内容就发到你的 analyzer 发往的地方。analyzer 进程从你的环境变量里只拿到 `PATH` |
+| 深挖某条「值得知道」 | 你的 agent 用它自己的网页工具打开原帖和一手链接 |
+| Grok Bot 模板（可选） | 你在 Grok 里添加模板后，由 Grok 用你的账号读你的时间线。这和 CLI、插件无关，它们从不调用 Grok |
+
+内核和 Skill 从不读取密码、Cookie、token、API key、浏览器数据库或钥匙串。预检只查 Python 版本、内核装没装，以及采集器命令在不在 `PATH` 上。
+
+只存在你本机的：`signal-digest init` 写出的配置文件（默认 `signal-digest.toml`），以及 `state_dir`（默认是配置文件旁边的 `.signal-digest/`）下的所有内容：`state.json`、`packets/` 里的审阅包、`receipts/` 里的 commit 和反馈回执。`digest --output` 会把摘要写到你指定的文件。演示在临时目录里跑，跑完即删。
+
 ## 关于作者
 
 *Leo（[@runes_leo](https://x.com/runes_leo)）— AI × Crypto 独立构建者。在 [Polymarket](https://polymarket.com/?via=runes-leo&r=runesleo&utm_source=github&utm_content=x-signal-digest) 做量化，用 Claude Code 和 Codex 搭数据与内容管线。*
